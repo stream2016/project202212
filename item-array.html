@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품 진열</title>
+    <style>
+        /*
+        DESKTOP SIZE
+        -------------------------------------*/
+        @media (min-width:600px){
+           #container{
+                display: flex;
+                flex-direction: row; 
+                flex-wrap: wrap;
+                justify-content: space-between;
+           }
+           .item-wrap{
+                flex: 1 1 auto;
+                text-align: center;
+           }
+         
+           .banchan-img {
+                display: block;
+                width: 50%;
+                border-radius: 8px;
+                margin: 4px 0;
+           }
+
+           .item-wrap p{
+                margin: 4px 0;       
+                
+           }
+           
+           .item-wrap p:last-child {
+                margin-bottom: 15px;
+           }
+
+           
+           .item-wrap p:nth-child(3) {
+                color:darkgray;
+                text-decoration: line-through;
+               
+           }
+           .item-wrap p:nth-child(4) {
+                font-weight: bold;
+            }
+
+            img {
+                border-radius: 5px;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item-wrap">
+            <p class="banchan-img"><img src="images/wooung.png"></p>
+            <p>[NEW] 쫄깃하고 달콤한 우엉반찬 500g</p>
+            <p class="before-sale">12,000원</p>
+            <p class="after-sale">8,000원</p>
+        </div>
+        <div class="item-wrap">
+            <p class="banchan-img"><img src="images/wooung.png"></p>
+            <p>[NEW] 쫄깃하고 달콤한 우엉반찬  500g</p>
+            <p class="before-sale">12,000원</p>
+            <p class="after-sale">8,000원</p>
+        </div>
+        <div class="item-wrap">
+            <p class="banchan-img"><img src="images/wooung.png"></p>
+            <p>[NEW] 쫄깃하고 달콤한 우엉반찬 500g</p>
+            <p class="before-sale">12,000원</p>
+            <p class="after-sale">8,000원</p>
+        </div>
+        <div class="item-wrap">
+            <p class="banchan-img"><img src="images/wooung.png"></p>
+            <p>[NEW] 쫄깃하고 달콤한 우엉반찬 500g</p>
+            <p class="before-sale">12,000원</p>
+            <p class="after-sale">8,000원</p>
+        </div>
+    </div>
+</body>
+</html>
